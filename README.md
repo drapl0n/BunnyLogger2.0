@@ -17,6 +17,13 @@
 * Persistent.
 * Autostart payload on boot.
 
+### Installation and Usage:
+* Install BunnyLogger 2.0: `chmod +x install.sh && ./install.sh` in your system.
+* In BashBunny, create directory named 'bunnyLogger2' in `/payloads/library/`.
+* Move files in BashBunny as per Directory Structure given below.
+* Run : `bunnyLoggerMgr` to launch BunnyLogger Manager.
+* Inorder to uninstall BunnyLogger 2.0: `chmod +x uninstall.sh && ./uninstall.sh` in your system.
+
 ### Directory Structure of payload components:
 
 | FileName       | Directory                      |
@@ -25,15 +32,13 @@
 | payload.sh     | /payload/                      |
 | requirements/* | /payloads/library/bunnyLogger2 |
 
+* Note: `payload.sh` is newly generated file using BunnyLogger Manager.
+
 ### LED Status:
 
 * `LED SETUP`   : MAGENTA
 * `LED ATTACK`  : YELLOW
 * `LED FINISH`  : GREEN
-
-### Usage:
-* Install BunnyLogger 2.0: `chmod +x install.sh && sudo ./install.sh`
-* Run : `bunnyLoggerMgr` to launch BunnyLogger Manager.
 
 #### Support me if you like my work:
 * https://twitter.com/drapl0n 
