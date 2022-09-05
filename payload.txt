@@ -20,10 +20,7 @@ Q ENTER
 Q DELAY 200
 
 # [Fetching BashBunny's block device]
-Q STRING lol='$(lsblk | grep 1.8G)'
-Q ENTER
-Q DELAY 100
-Q STRING disk='$(echo $lol | awk '\'{print\ '$1'}\'\)''
+Q STRING disk='$(lsblk -fs | grep BashBunny | awk '\'{print\ '$1'}\'\)''
 Q ENTER
 Q DELAY 200
 
