@@ -25,7 +25,7 @@ Q ENTER
 Q DELAY 200
 
 # [Mounting BashBunny]
-Q STRING udisksctl mount -b /dev/'$disk' /tmp/tmppp
+Q STRING udisksctl mount -b /dev/'$disk'
 Q ENTER
 Q DELAY 2000
 Q STRING mntt='$(lsblk | grep $disk | awk '\'{print\ '$7'}\'\)''
