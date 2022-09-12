@@ -28,8 +28,8 @@
 
 | FileName       | Directory                      |
 | -------------- | ------------------------------ |
-| payload.txt    | /payload/switch1/              |
-| payload.sh     | /payload/                      |
+| payload.txt    | /payloads/switch1/              |
+| payload.sh     | /payloads/                      |
 | requirements/* | /payloads/library/bunnyLogger2 |
 
 * Note: `payload.sh` is newly generated file using BunnyLogger Manager.
